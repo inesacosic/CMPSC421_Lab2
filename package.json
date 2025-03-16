@@ -3,7 +3,9 @@
     "body-parser": "^1.20.3",
     "express": "^4.21.2",
     "mongodb": "^6.14.0",
-    "mongoose": "^8.12.0"
+    "mongoose": "^8.12.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
   },
   "name": "cmpsc421_lab2",
   "version": "1.0.0",
