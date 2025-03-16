@@ -39,6 +39,7 @@ async function deleteOrder(req, res){
 
         // find document that has the given orderID and delete it 
         const result = await db.collection('Orders').deleteOne({OrderID: orderid});
+        console.log(result);
 
         // check that the document was deleted
         if (result.deletedCount == 1){
