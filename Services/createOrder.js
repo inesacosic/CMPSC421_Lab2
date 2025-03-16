@@ -47,7 +47,7 @@ async function createOrder(req, res){
         let newOrderID;
 
         if (lastOrder && lastOrder.length > 0){ // check that the order exists and has items
-          const lastID = lastOrder[0].OrderID; 
+          const lastID = parseInt(lastOrder[0].OrderID); 
           newOrderID = lastID + 1; // get the orderID and increment by one
         } else {
             newOrderID = 0; // start from zero if no orders exist
