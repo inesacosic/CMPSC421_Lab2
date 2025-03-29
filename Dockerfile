@@ -1,6 +1,6 @@
 FROM node:22
 
-WORKDIR /Services
+WORKDIR /CMPSC421_LAB2
 
 COPY package*.json ./
 
