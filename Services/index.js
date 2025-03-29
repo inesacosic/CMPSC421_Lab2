@@ -40,7 +40,7 @@ app.use(bodyParser.json());
      },
  },
     },
-    apis: ['./*.js'], // Path to your API docs
+    apis: ['./Services/*.js'], // Path to your API docs
 };
 
 const swaggerDocs = swaggerJSDoc(swaggerOptions);
