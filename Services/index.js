@@ -3,7 +3,7 @@ const swaggerUi = require('swagger-ui-express');
 const swaggerJSDoc = require('swagger-jsdoc')
 const bodyParser = require('body-parser');
 const app = express();
-const port = 3000;
+const port = 8080;
 /////////////////////////////////////////////////////////////
 const {connectToDB, closeDBConnection} = require('./database')
 const createOrder = require('./createOrder');
