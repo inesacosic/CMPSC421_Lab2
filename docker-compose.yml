@@ -1,0 +1,22 @@
+# Use root/example as user/password credentials
+
+services:
+  app:
+    image: inesacos/lab-3:latest
+    ports:
+      - "8080:3000"
+    depends_on: 
+      - mongodb
+
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodata:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ixc5135
+      MONGO_INITDB_ROOT_PASSWORD: Zouaves15*
+
+volumes:
+  mongodata:
