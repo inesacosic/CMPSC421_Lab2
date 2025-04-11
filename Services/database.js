@@ -1,5 +1,7 @@
 const {MongoClient, ServerApiVersion} = require('mongodb');
-const uri = "mongodb+srv://ixc5135:Zouaves15*@orderingsystem.ze7pt.mongodb.net/?retryWrites=true&w=majority&appName=OrderingSystem";
+// const uri = "mongodb+srv://ixc5135:Zouaves15*@orderingsystem.ze7pt.mongodb.net/?retryWrites=true&w=majority&appName=OrderingSystem";
+const uri = "mongodb://ixc5135:Zouaves15*@mongodb:27017/orderingsystem";
+
 //initialize client variable
 let client;
 
